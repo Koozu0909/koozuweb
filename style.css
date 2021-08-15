@@ -88,7 +88,7 @@ ul {
       width: 60%;
       height: 100%;
       box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
-      padding: 64px;
+      padding: 30px;
       transition: .4s;
       margin-right: 17%;
     }
@@ -97,6 +97,8 @@ ul {
         flex-direction: column;
         row-gap: 40px;
         z-index: 1;
+        margin-top: 10px;
+        margin-left: 10px;
     }
     .nav-link{
         color: #cde3e8;
