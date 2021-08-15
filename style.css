@@ -85,11 +85,12 @@ ul {
       background-color: white;
       top: 0;
       right: -100%;
-      width: 70%;
+      width: 60%;
       height: 100%;
       box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
       padding: 64px;
       transition: .4s;
+      margin-right: 17%;
     }
     .nav-list{
         display: flex;
