@@ -74,7 +74,7 @@ ul {
 .nav-menu{
     position: relative;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
     .container{
         width: 90%;
         margin-left: auto;
@@ -85,20 +85,17 @@ ul {
       background-color: white;
       top: 0;
       right: -100%;
-      width: 60%;
+      width: 70%;
       height: 100%;
       box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
-      padding: 30px;
+      padding: 50px;
       transition: .4s;
-      margin-right: 17%;
     }
     .nav-list{
         display: flex;
         flex-direction: column;
         row-gap: 40px;
         z-index: 1;
-        margin-top: 10px;
-        margin-left: 10px;
     }
     .nav-link{
         color: #cde3e8;
@@ -127,7 +124,7 @@ ul {
         color: rgb(68, 104, 111);
     }
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 769px) {
     .nav-toggle, .nav-close {
         display: none;
       }
@@ -290,7 +287,7 @@ ul {
       object-position: 83% center;
   }
     .home-data{
-        padding: 20px 0px 50px 0px;
+        padding: 20px 0px 30px 0px;
     }
     .home-data-subtitle {
         display: block;
@@ -516,8 +513,8 @@ ul {
   flex-wrap: wrap;
 }
 .packages-item-col{
-  width: 420px;
-  height: 570px;
+  width: 380px;
+  height: 580px;
   overflow: hidden;
   margin:20px;
   border: 1px solid rgba(0,0,0,0.1);
@@ -591,6 +588,58 @@ ul {
   .packages-content-box{
     padding: 19px;
   }
+  .packages-item-col{
+    width: 350px;
+    height: 550px;
+  }
+  .packages-content-box{
+    padding: 15px;
+  }
+  .packages-content-box i{
+    color: #545a5c;
+  }
+  .packages-content-box h3{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #333333;
+  }
+  .packages-content-box p{
+    font-size: 17px;
+    color: #666666;
+    padding:12px 0px ;
+    margin:0;
+    text-align: justify;
+    text-transform: capitalize;
+  }
+  .stars i{
+    color: #545a5c;
+    font-size: 18px;
+  }
+  .packages-content-box .price{
+    font-size: 20px;
+    padding: 10px 0 20px;
+  }
+  .packages-content-box .price span{
+    color:#666666;
+    display:inline;
+    font-size:15px;
+    text-decoration: line-through;
+  }
+  .packages-content-box .btn{
+      display: inline-block;
+      margin-top: 20px 0 0;
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+      font-size: 17px;
+      background: #545a5c;
+      padding: 8px 30px;
+      border: 2px solid;
+  }
+  .packages-content-box .btn:hover{
+    background: #8d8d8d;
+  }
+
 }
 /************** OUR PACKAGES:END *************/
 /*************  SERVICE:START  *************/

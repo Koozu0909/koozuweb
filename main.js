@@ -24,7 +24,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
 
-//review-slider
+/********  review-slider *********/
 var swiper = new Swiper(".review-slider", {
     spaceBetween: 20,
     loop:true,
@@ -44,4 +44,35 @@ var swiper = new Swiper(".review-slider", {
         },
     },
 });
-/////fdasd
+
+
+
+/************* SCROLL REVEAL ANIMATION *************/
+const sr = ScrollReveal({
+    distance: '40px',
+    duration: 2800,  
+    reset: true,
+})
+
+
+sr.reveal(`.home-container, .offer-data ,.top,.service-title,.banner-content-title
+            ,.banner-content-subtitle`,{
+    origin: 'top',
+    interval: 100,
+})
+
+sr.reveal(`.home-container, .bottom,.swiper-container`,{
+    origin: 'bottom',
+    interval: 100,
+})
+
+sr.reveal(`.left`,{
+    origin: 'left',
+    interval: 100,
+})
+
+sr.reveal(`.right`,{
+    origin: 'right',
+    interval: 100,
+})
+
