@@ -27,7 +27,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 /********  review-slider *********/
 var swiper = new Swiper(".review-slider", {
     spaceBetween: 20,
-    loop:true,
+    loop:false,
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
